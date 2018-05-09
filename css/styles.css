@@ -5,6 +5,8 @@
   margin-right: 0px;
   margin-left: 0px;
   width: 100%;
+  background-color: #000;
+  margin-top: 1px;
 }
 
 body {
@@ -120,13 +122,12 @@ h3,.h3 {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
   font-weight: 100;
   letter-spacing: .7vw;
-  font-size: 2.7vw;
+  font-size: 1.7vw;
   text-align: center;
-  padding-left: .3vw;
-  padding-right: .3vw;
   padding-top: .7vw;
   padding-bottom: .7vw;
   font-weight: 100;
+  max-width: 100%;
 }
 
 h4,.h4 {
@@ -151,8 +152,7 @@ p {
   font-style: normal;
   font-variant: normal;
   font-weight: 1;
-  line-height: 19px;
-  font-size: 15px;
+  font-size: 1.5vw;
   padding:5%;
   margin:0px;
   background-color: #000;
@@ -168,7 +168,9 @@ p.padded {
 
 p.footbox {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-  font-weight: 100; letter-spacing: 0.5vw; font-size: 1.7vw;
+  font-weight: 100;
+  letter-spacing: 0.5vw;
+  font-size: 1.7vw;
   background-color:#000;
   padding-left:0.7vw;
   padding-right:0.7vw;
