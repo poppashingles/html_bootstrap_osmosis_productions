@@ -52,8 +52,18 @@ body {
   padding-top: 30px;
 }
 
+.contact .social {
+  background-color: #000;
+  opacity: 0.77;
+}
+
+.contact .social {
+  padding: 10px 0px;
+}
+
 .social img {
   padding: 0px 20px;
+  width: 77px;
 }
 
 
