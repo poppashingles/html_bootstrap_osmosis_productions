@@ -31,7 +31,6 @@ body {
   background-position: center;
   background-size: cover;
   /* margin: 5% 25% 5% 25%; */
-  opacity:0.77;
   color: #ccc;
   font-weight: 100;
 }
@@ -253,4 +252,29 @@ blockquote {
   padding-right:1vw;
   padding-top:1vw;
   padding-bottom:1vw;
+}
+
+.lightbox-images img {
+  border: 1px solid #fff;
+  text-align: center;
+  display: inline-block;
+  width: 22.5%;
+  height: 170px;
+  margin: 5px 1%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+#footer, .container {
+  opacity: 0.77;
+}
+
+.lightbox-only {
+  display: none;
 }
