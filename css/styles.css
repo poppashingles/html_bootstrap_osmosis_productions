@@ -288,3 +288,38 @@ blockquote {
 .lightbox-only {
   display: none;
 }
+
+.mob-lightbox {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .lightbox-images img {
+        width: 90%;
+        margin: 5% 5%;
+    }
+
+    .container h3 {
+      font-size: 11px;
+    }
+
+    .email, .phone {
+      font-size: 20px;
+    }
+
+    body {
+      margin-bottom: 100px;
+    }
+
+    .contact {
+      position: relative;
+    }
+
+    .lightbox-images {
+      display: none;
+    }
+
+    .mob-lightbox {
+      display: block;
+    }
+}
