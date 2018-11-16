@@ -17,6 +17,7 @@ body {
   background-size: cover;
   color: #ccc;
   font-weight: 100;
+  margin-bottom: 100px;
 }
 
 .contact p {
@@ -168,6 +169,7 @@ p {
     body {
       height: 100vh;
       margin: 11% 0px;
+      margin-bottom: 0;
     }
 
     .lightbox-images {
