@@ -166,9 +166,8 @@ p {
     }
 
     body {
-      margin-bottom: 100px;
-
       height: 100vh;
+      margin: 11% 0px;
     }
 
     .lightbox-images {
@@ -177,5 +176,12 @@ p {
 
     .mob-lightbox {
       display: block;
+      padding: 10px 0px;
+    }
+
+    .icon img {
+      padding: 20px;
+      height: 75px;
+      width: 75px;
     }
 }
