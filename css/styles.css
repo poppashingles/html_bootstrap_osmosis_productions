@@ -167,6 +167,10 @@ p {
 
     body {
       margin-bottom: 100px;
+
+      background-image: url("../images/background/cargo-lighting-clubnight-haze-dj.jpg");
+      color: #ccc;
+      font-weight: 100;
     }
 
     .lightbox-images {
